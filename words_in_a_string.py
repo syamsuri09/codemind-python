@@ -1,3 +1,7 @@
-n = list(map(str,input().split()))
+n = input()
 
-print(len(n))
+c = 0
+for i in n:
+    if i== " ":
+        c+=1
+print(c+1)
