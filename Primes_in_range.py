@@ -11,4 +11,3 @@ for i in range(a,b+1):
     if(prime(i)==1 and i!=1):
         c+=1
 print(c)
-
